@@ -1,5 +1,5 @@
-import openDevServer from "./webpack.dev";
-import build from "./webpack.prod";
+import openDevServer from "./webpack.dev.js";
+import build from "./webpack.prod.js";
 
 const { NODE_ENV = "development" } = process.env;
 
